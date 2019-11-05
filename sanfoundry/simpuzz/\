@@ -1,0 +1,16 @@
+       #include <stdio.h>
+
+       main()
+
+       {
+	printf(" %u ",-1);
+
+           if (sizeof(int) > -1)
+
+               printf("True");
+
+           else
+
+               printf("False");
+
+       }
